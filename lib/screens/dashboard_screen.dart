@@ -24,7 +24,7 @@ class DashboardScreen extends StatelessWidget {
               height: 32,
             ),
             const SizedBox(width: 8),
-            const Text('HiveChat'),
+            const Text('QuadTalk'),
           ],
         ),
         actions: [
@@ -109,7 +109,7 @@ class DashboardScreen extends StatelessWidget {
         
         // App Title
         Text(
-          'Welcome to HiveChat',
+          'Welcome to QuadTalk',
           style: Theme.of(context).textTheme.headlineLarge?.copyWith(
             fontWeight: FontWeight.bold,
             color: Theme.of(context).colorScheme.primary,
